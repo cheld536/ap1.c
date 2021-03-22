@@ -1,10 +1,8 @@
-# ap1.c
-자료구조 3주차 과제 ap1.c의 소스코드다
 #include<stdio.h>
 
 int main()
 {
-	int list[5];                                                        					// int형 변수 5개를 저장할 배열 선언
+	int list[5];                                                        			// int형 변수 5개를 저장할 배열 선언
    	int *plist[5] = {NULL,};                                                                // int형 포인터 배열을 Null값으로 초기화
 
 	plist[0] = (int*)malloc(sizeof(int));                                                   // plist[0]에다가 int형 크기 많큼 동적할당 해준다.
